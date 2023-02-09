@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  mindsdb:
+    ports:
+      - '47334:47334'
+      - '47335:47335'
+    image: mindsdb/mindsdb
